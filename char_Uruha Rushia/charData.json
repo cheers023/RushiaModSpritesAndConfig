@@ -1,0 +1,334 @@
+{
+    "ATK": 1.4,
+    "CRIT": 12.0,
+    "HP": 110.0,
+    "SPD": 1.6,
+    "attackAnimationFPS": 30,
+    "attackAnimationFileName": "RushiaWeaponAwakened_strip12.png",
+    "attackAwakenedIconFileName": "rushiaWeaponAwakened.png",
+    "attackIconFileName": "rushiaWeapon.png",
+    "attackName": "Butterfly Spawn",
+    "buffs": [
+        {
+            "buffIconFileName": "RushiaPerk1Buff.png",
+            "buffName": "necromancy1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": 0.85,
+                    "maxStacks": 1,
+                    "speedIncrement": null,
+                    "timer": 300,
+                    "weaponSize": null
+                }
+            ]
+        },
+		{
+            "buffIconFileName": "RushiaPerk2Buff.png",
+            "buffName": "menhera1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": null,
+                    "critIncrement": 5,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "maxStacks": 10,
+                    "speedIncrement": null,
+                    "timer": 300,
+                    "weaponSize": null
+                }
+            ]
+        },
+		{
+            "buffIconFileName": "RushiaPerk3Buff.png",
+            "buffName": "notPettan1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "maxStacks": 5000,
+                    "speedIncrement": null,
+                    "timer": 600,
+                    "weaponSize": null
+                }
+            ]
+        }
+    ],
+    "charName": "Uruha Rushia",
+    "idleAnimationFPS": 4,
+    "idleAnimationFileName": "idleRushia_strip4.png",
+    "largePortraitFileName": "rushiaLargePort.png",
+    "levels": [
+        {
+            "attackCount": 1,
+            "attackDelay": 10,
+            "attackDescription": "Sends butterfly swarm in front.",
+            "attackTime": 80,
+            "damage": 1.0,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 60,
+            "speed": 7.0
+        },
+        {
+            "attackCount": 1,
+            "attackDelay": 10,
+            "attackDescription": "Increase attack damage by 15%.",
+            "attackTime": 80,
+            "damage": 1.15,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 60,
+            "speed": 7.0
+        },
+        {
+            "attackCount": 2,
+            "attackDelay": 10,
+            "attackDescription": "Increase amount of butterfly swarms by 1.",
+            "attackTime": 80,
+            "damage": 1.15,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 60,
+            "speed": 7.0
+        },
+        {
+            "attackCount": 2,
+            "attackDelay": 10,
+            "attackDescription": "Increase attack damage and speed by 20%",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 60,
+            "speed": 8.4
+        },
+        {
+            "attackCount": 3,
+            "attackDelay": 10,
+            "attackDescription": "Increase amount of butterfly by 1 and range by 10%.",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 70,
+            "speed": 8.4
+        },
+        {
+            "attackCount": 3,
+            "attackDelay": 9,
+            "attackDescription": "Reduces the time between attacks by 10%.",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 70,
+            "speed": 8.4
+        },
+        {
+            "attackCount": 4,
+            "attackDelay": 9,
+            "attackDescription": "Increase amount of butterfly swarms by 4, increases attack damage by 20% and maxed out range and speed.",
+            "attackTime": 80,
+            "damage": 1.55,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+            "range": 100,
+            "speed": 10.0
+        }
+    ],
+    "portraitFileName": "rushiaPort.png",
+    "runAnimationFPS": 12,
+    "runAnimationFileName": "runRushia_strip6.png",
+    "sizeGrade": 0,
+    "skills": [
+        {
+            "levels": [
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": 15,
+                    "healMultiplier": null,
+                    "skillDescription": "Increase Haste by 15% and boost SPD by 100%.",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "NONE",
+                        "probability": null
+					},
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": 20,
+                    "healMultiplier": null,
+                    "skillDescription": "Increase Haste by 20% and boost SPD by 100%",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "NONE",
+                        "probability": null
+                    },
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": 25,
+                    "healMultiplier": null,
+                    "skillDescription": "Increases Haste by 25% and SPD by 100%.",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "NONE",
+                        "probability": null
+                    },
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk1.png",
+            "skillName": "Necromancy"
+        },
+        {
+            "levels": [
+                {
+                    "DRMultiplier": 2,
+                    "attackIncrement": 1,
+                    "critIncrement": 10,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increase ATK by 100% and CRT by 10% but increases damage received by 100%. Additionally icreases 5% crit by chance per kill",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onKill",
+                        "probability": 20
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": 2,
+                    "attackIncrement": 1,
+                    "critIncrement": 15,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increase ATK by 100% and CRT by 15% while increasing damage received by 100%. Additionally icreases 5% crit by chance per kill. We can fix her.",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onKill",
+                        "probability": 20
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": 2,
+                    "attackIncrement": 2,
+                    "critIncrement": 20,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increase ATK by 200% and CRT by 20% while increasing damage received by 100%. Additionally icreases 5% crit by chance per kill. She can fix us instead.",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onKill",
+                        "probability": 20
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk2.png",
+            "skillName": "Menhera"
+        },
+        {
+            "levels": [
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.2,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 20%. Also, it shows counter.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onKill",
+                        "probability": 100
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.4,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 40%. Still the same.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onKill",
+                        "probability": 100
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.6,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 60%. Yep. It doesn't grow no matter what level it is.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onKill",
+                        "probability": 100
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk3.png",
+            "skillName": "Not Pettan!"
+        }
+    ],
+    "specialAnimationFPS": 15,
+    "specialAnimationFileName": "RushiaSpecial_strip9.png",
+    "specialCooldown": 55,
+    "specialDamage": 6.0,
+    "specialDescription": "Blesses targets ears with waves of bloodcurdling screams for 10 seconds.",
+    "specialDuration": 100,
+    "specialIconFileName": "rushiaSpecial.png",
+    "specialName": "Death Metal Blessing",
+    "weaponType": "Multishot"
+}
