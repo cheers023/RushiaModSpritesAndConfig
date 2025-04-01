@@ -9,7 +9,7 @@
  100% Safe. Though you may need to put AurieManager on exception list to run this mod. If you download it other than this link, kindly re-download this version instead.
 
  Authors:
- - Tomokinji (@tomokinji3) for edited and oc sprites for the game.
+ - Tomokinji (me, @tomokinji3) for edited and oc sprites for the game. Also made character datas, skill infos and description, etc. and balancing (probably the hardest part)
  - Ghast (@GhastXO) for large portrait pixel art of Rushia. Also, she helps with the initial mod work. (mostly sprites).
  
  Special Thanks to:
