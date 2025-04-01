@@ -1,5 +1,6 @@
 # RushiaModSpritesAndConfig
  Rushia Mod Sprites and Config v1.0 (actual v0.55)
+ Updated: 04/01/2025 (mm/dd/yyyy)
 
  Download the full game + rushia mod here:
  https://www.mediafire.com/file/08nk5dxlsy8d9l2/RushiaMod_v0.7.rar/file
