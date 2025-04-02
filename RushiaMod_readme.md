@@ -1,4 +1,4 @@
-# Rushia Mod v1.0.5
+# Rushia Mod v1.1.55
 # Updated 4/2/2025
 
 This mod adds Uruha Rushia to HoloCure as a new playable character.
