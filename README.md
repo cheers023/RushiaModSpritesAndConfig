@@ -39,17 +39,17 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 ---
 
 ## Troubleshooting  
-### Can't find game / Game not starting / Can't add mods:  
+### 1. Can't find game / Game not starting / Can't add mods:  
 - Open and close AurieManager. If it doesn't work, try deleting the config by opening **Aurie Manager** > **Settings** > **Delete Config** and try to start game as normal (via AuriaManager or HoloCure.exe).  
 
-### Can't select game / Missing executable file due to virus (non-verbatim):  
+### 2. Can't select game / Missing executable file due to virus (non-verbatim) (Note: This error is exclusive for AurieManager, not the Character Mod and Character Config:  
 - `AurieManager.exe` may have been falsely flagged as a virus by your antivirus (AV). Try turning off your AV temporarily, then run AurieManager. (Don't worry, it's 100% safe—I tested it myself.) After installation, turn your AV back on.  
 
-### Game crashes after entering the character selection screen:  
-- This could be a config error. Ensure you have downloaded the mod properly. If not, try deleting the old mod folder and reinstalling it. Also, do the 1st troubleshooting solution.
+### 3. Game crashes after entering the character selection screen:  
+- This could be a config error. Ensure you have downloaded the mod properly. If not, try deleting the old mod folder and reinstalling it. Also, do the #1 solution.
 
-### Edited the Mod via in-game character editor and other issues:
-- If you accidentally edit the mod via in-game character editor, 100% chance the mod config changed and the whole mod won't work anymore. Delete the whole mod folder and re-install the mod again. Refer to #1 for deleting config.
+### 4. Edited the Mod via in-game character editor and other issues:
+- If you accidentally edit the mod via in-game character editor, 100% chance the mod config changed and the whole mod won't work anymore. Delete the whole mod folder and reinstall the mod again. Refer to #1 solution.
   
 For you did the troubleshooting above and still have issues: DM [@tomokinji3](https://twitter.com/tomokinji3) on Twitter/X.
 
