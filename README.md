@@ -46,7 +46,10 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 - `AurieManager.exe` may have been falsely flagged as a virus by your antivirus (AV). Try turning off your AV temporarily, then run AurieManager. (Don't worry, it's 100% safe—I tested it myself.) After installation, turn your AV back on.  
 
 ### Game crashes after entering the character selection screen:  
-- This could be a config error. Ensure you have downloaded the mod properly. If not, try deleting the old mod folder and reinstalling it. Also, delete the config (see #1) and then open AurieManager.  
+- This could be a config error. Ensure you have downloaded the mod properly. If not, try deleting the old mod folder and reinstalling it. Also, delete the config (see #1) and then open AurieManager.
+
+### Edited the Mod via in-game character editor and other issue:
+- If you accidentally edit the mod in in-game character editor, 100% chance the config changed and the whole mod won't work anymore. Delete the whole mod folder and re-install the mod again. Refer to #1 for deleting config.
   
 For other issues: DM [@tomokinji3](https://twitter.com/tomokinji3) on Twitter/X.
 
