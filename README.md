@@ -48,7 +48,7 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 
 ## Thanks To  
 - **Kay Yu** – For making HoloCure.  
-- **BurningShAdowXD258** – for initial sprites, animation, character info he maid 2 years ago. (Thanks, dude!)  
+- **BurningShAdowXD258** – for initial sprites, animation, character info he made 2 years ago. (Thanks, dude!)  
 - **Fellow fandeads** – For showing support.  
 
 ---
