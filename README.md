@@ -6,11 +6,11 @@ This mod adds Uruha Rushia to HoloCure as a new playable character.
 For issues: DM [@tomokinji3](https://twitter.com/tomokinji3) on Twitter/X.
 
 ## Download link: 
-[Rushia Mod for HoloCure v0.7 + v1.1.55 update](https://www.mediafire.com/file/kz7c0v33oe8e8yj/RushiaMod_for_HoloCure_v0.7_%252B_v1.1.55_update.rar/file)
+Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/file/kz7c0v33oe8e8yj/RushiaMod_for_HoloCure_v0.7_%252B_v1.1.55_update.rar/file)
 
 ## Previous Version:
 - Version 1.0:
-[Rushia Mod v1.0](https://www.mediafire.com/file/08nk5dxlsy8d9l2/RushiaMod_v0.7.rar/file)
+[Link](https://www.mediafire.com/file/08nk5dxlsy8d9l2/RushiaMod_v0.7.rar/file)
 
 
 ---
