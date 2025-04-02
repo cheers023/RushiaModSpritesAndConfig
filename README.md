@@ -49,7 +49,7 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 - This could be a config error. Ensure you have downloaded the mod properly. If not, try deleting the old mod folder and reinstalling it. Also, do the #1 solution.
 
 ### 4. Edited the Mod via in-game character editor and other issues:
-- If you accidentally edit the mod via in-game character editor, 100% chance the mod config changed and the whole mod won't work anymore. Delete the whole mod folder and reinstall the mod again. Refer to #1 solution.
+- If you accidentally edit the mod via in-game character editor, 100% chance the mod config changed and the whole mod won't work anymore. Delete the whole mod folder and reinstall the mod again. Also, do the #1 solution.
   
 For you did the troubleshooting above and still have issues: DM [@tomokinji3](https://twitter.com/tomokinji3) on Twitter/X.
 
