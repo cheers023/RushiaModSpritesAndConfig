@@ -7,7 +7,7 @@
     "attackAnimationFileName": "RushiaWeaponAwakened_strip12.png",
     "attackAwakenedIconFileName": "rushiaWeaponAwakened.png",
     "attackIconFileName": "rushiaWeapon.png",
-    "attackName": "Butterfly Spawn",
+    "attackName": "Butterfly Swarm",
     "buffs": [
         {
             "buffIconFileName": "RushiaPerk1Buff.png",
@@ -15,14 +15,14 @@
             "levels": [
                 {
                     "DR": null,
-                    "attackIncrement": null,
-                    "critIncrement": null,
+                    "attackIncrement": 1,
+                    "critIncrement": 1,
                     "food": null,
                     "hasteIncrement": null,
-                    "healMultiplier": 0.85,
+                    "healMultiplier": null,
                     "maxStacks": 1,
                     "speedIncrement": null,
-                    "timer": 300,
+                    "timer": 180,
                     "weaponSize": null
                 }
             ]
@@ -34,11 +34,11 @@
                 {
                     "DR": null,
                     "attackIncrement": null,
-                    "critIncrement": 5,
+                    "critIncrement": 10,
                     "food": null,
-                    "hasteIncrement": null,
+                    "hasteIncrement": 10,
                     "healMultiplier": null,
-                    "maxStacks": 10,
+                    "maxStacks": 1,
                     "speedIncrement": null,
                     "timer": 300,
                     "weaponSize": null
@@ -53,13 +53,13 @@
                     "DR": null,
                     "attackIncrement": null,
                     "critIncrement": null,
-                    "food": null,
+                    "food": 0.1,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "maxStacks": 5000,
+                    "maxStacks": 1,
                     "speedIncrement": null,
-                    "timer": 600,
-                    "weaponSize": null
+                    "timer": 180,
+                    "weaponSize": 0.01
                 }
             ]
         }
@@ -72,7 +72,7 @@
         {
             "attackCount": 1,
             "attackDelay": 10,
-            "attackDescription": "Sends butterfly swarm in front.",
+            "attackDescription": "Sends butterfly swarm forward.",
             "attackTime": 80,
             "damage": 1.0,
             "duration": 120,
@@ -96,7 +96,7 @@
         {
             "attackCount": 2,
             "attackDelay": 10,
-            "attackDescription": "Increase amount of butterfly swarms by 1.",
+            "attackDescription": "Increase amount of butterfly swarm by 1.",
             "attackTime": 80,
             "damage": 1.15,
             "duration": 120,
@@ -144,7 +144,7 @@
         {
             "attackCount": 4,
             "attackDelay": 9,
-            "attackDescription": "Increase amount of butterfly swarms by 4, increases attack damage by 20% and maxed out range and speed.",
+            "attackDescription": "Increase amount of butterfly swarm by 4, increases attack damage by 20% and maxed out range and speed.",
             "attackTime": 80,
             "damage": 1.55,
             "duration": 120,
@@ -163,48 +163,48 @@
             "levels": [
                 {
                     "DRMultiplier": null,
-                    "attackIncrement": null,
+                    "attackIncrement": 1,
                     "critIncrement": null,
                     "food": null,
-                    "hasteIncrement": 15,
-                    "healMultiplier": null,
-                    "skillDescription": "Increase Haste by 15% and boost SPD by 100%.",
+                    "hasteIncrement": null,
+                    "healMultiplier": 0.5,
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 100% ATK and 100% SPD but reduces healing by 50%. Chance to gain ATK for every enemy hit.",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
-                        "onTriggerType": "NONE",
-                        "probability": null
+                        "onTriggerType": "onAttackCreate",
+                        "probability": 10
 					},
                     "speedIncrement": 1,
                     "weaponSize": null
                 },
                 {
                     "DRMultiplier": null,
-                    "attackIncrement": null,
+                    "attackIncrement": 2,
                     "critIncrement": null,
                     "food": null,
-                    "hasteIncrement": 20,
-                    "healMultiplier": null,
-                    "skillDescription": "Increase Haste by 20% and boost SPD by 100%",
+                    "hasteIncrement": null,
+                    "healMultiplier": 0.5,
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 200% ATK and 100% SPD but reduces healing by 50%. Chance to gain ATK for every enemy hit.",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
-                        "onTriggerType": "NONE",
-                        "probability": null
+                        "onTriggerType": "onAttackCreate",
+                        "probability": 10
                     },
                     "speedIncrement": 1,
                     "weaponSize": null
                 },
                 {
                     "DRMultiplier": null,
-                    "attackIncrement": null,
+                    "attackIncrement": 3,
                     "critIncrement": null,
                     "food": null,
-                    "hasteIncrement": 25,
+                    "hasteIncrement": 0.5,
                     "healMultiplier": null,
-                    "skillDescription": "Increases Haste by 25% and SPD by 100%.",
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 300% ATK and 100% SPD but reduces healing by 50%. Chance to gain ATK for every enemy hit.",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
-                        "onTriggerType": "NONE",
-                        "probability": null
+                        "onTriggerType": "onAttackCreate",
+                        "probability": 10
                     },
                     "speedIncrement": 1,
                     "weaponSize": null
@@ -217,48 +217,48 @@
             "levels": [
                 {
                     "DRMultiplier": 2,
-                    "attackIncrement": 1,
+                    "attackIncrement": null,
                     "critIncrement": 10,
                     "food": null,
-                    "hasteIncrement": null,
+                    "hasteIncrement": 20,
                     "healMultiplier": null,
-                    "skillDescription": "Increase ATK by 100% and CRT by 10% but increases damage received by 100%. Additionally icreases 5% crit by chance per kill",
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 20% Haste and 10% CRIT and increases damage received by 100%. Chance to gain Haste and CRIT after taking damage.",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
-                        "onTriggerType": "onKill",
-                        "probability": 20
+                        "onTriggerType": "onTakeDamage",
+                        "probability": 50
                     },
                     "speedIncrement": null,
                     "weaponSize": null
                 },
                 {
                     "DRMultiplier": 2,
-                    "attackIncrement": 1,
+                    "attackIncrement": null,
                     "critIncrement": 15,
                     "food": null,
-                    "hasteIncrement": null,
+                    "hasteIncrement": 30,
                     "healMultiplier": null,
-                    "skillDescription": "Increase ATK by 100% and CRT by 15% while increasing damage received by 100%. Additionally icreases 5% crit by chance per kill. We can fix her.",
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 30% Haste and 15% CRIT and increases damage received by 100%. Chance to gain Haste and CRIT after taking damage.",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
-                        "onTriggerType": "onKill",
-                        "probability": 20
+                        "onTriggerType": "onTakeDamage",
+                        "probability": 50
                     },
                     "speedIncrement": null,
                     "weaponSize": null
                 },
                 {
                     "DRMultiplier": 2,
-                    "attackIncrement": 2,
+                    "attackIncrement": null,
                     "critIncrement": 20,
                     "food": null,
-                    "hasteIncrement": null,
+                    "hasteIncrement": 50,
                     "healMultiplier": null,
-                    "skillDescription": "Increase ATK by 200% and CRT by 20% while increasing damage received by 100%. Additionally icreases 5% crit by chance per kill. She can fix us instead.",
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 50% Haste and 20% CRIT and increases damage received by 100%. Chance to gain Haste and CRIT after taking damage.",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
-                        "onTriggerType": "onKill",
-                        "probability": 20
+                        "onTriggerType": "onTakeDamage",
+                        "probability": 50
                     },
                     "speedIncrement": null,
                     "weaponSize": null
@@ -276,7 +276,7 @@
                     "food": 0.2,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 20%. Also, it shows counter.",
+                    "skillDescription": "Increases weapon size by 0% and gains food drop by 20%. Additional food gain for every fan eliminated that teases her.",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onKill",
@@ -292,7 +292,7 @@
                     "food": 0.4,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 40%. Still the same.",
+                    "skillDescription": "Increases weapon size by 0% and gains food drop by 40%. Additional food gain for every fan eliminated that teases her.",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onKill",
@@ -308,7 +308,7 @@
                     "food": 0.6,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Increases weapon size by 0%. Increases food drop chance by 60%. Yep. It doesn't grow no matter what level it is.",
+                    "skillDescription": "Increases weapon size by 0% and gains food drop by 60%. Additional food gain for every fan eliminated that teases her.",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onKill",
@@ -324,10 +324,10 @@
     ],
     "specialAnimationFPS": 15,
     "specialAnimationFileName": "RushiaSpecial_strip9.png",
-    "specialCooldown": 55,
+    "specialCooldown": 50,
     "specialDamage": 6.0,
-    "specialDescription": "Blesses targets ears with waves of bloodcurdling screams for 10 seconds.",
-    "specialDuration": 100,
+    "specialDescription": "Blesses targets ears with waves of bloodcurdling screams for 5.5 seconds.",
+    "specialDuration": 55,
     "specialIconFileName": "rushiaSpecial.png",
     "specialName": "Death Metal Blessing",
     "weaponType": "Multishot"

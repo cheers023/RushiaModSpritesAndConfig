@@ -1,0 +1,6 @@
+Update 1.1.55
+- Fixed run animation and some sprites.
+- Fixed some text.
+- Fixed skill effects, buffs and description.
+- Adjusted SP Attack from 10 seconds to 5.5 seconds and increase damage to 6 (from 5).
+- Fixed skills so it gains fixed rate of stats per level-up.
