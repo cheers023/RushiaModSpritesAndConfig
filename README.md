@@ -32,7 +32,7 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 ---
 
 ## Known Issues  
-- The game **crashes** when changing the language. Please play in English for now.  
+- The game **crashes** when changing the language while in playing a stage as Rushia. Please set the game language first before playing any stage.
 - May have performance issues when playing as Rushia in-game.
 - Opening a non-modded version of HoloCure may break this mod(?).
 
