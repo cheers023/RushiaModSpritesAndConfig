@@ -42,7 +42,7 @@ Rushia Mod for HoloCure v0.7 + v1.1.55 update: [Link](https://www.mediafire.com/
 1. Can't find game / Game not starting / Can't add mods:
    - Try to delete config by opening Aurie Manager > Settings > Delete Config.
 3. Something about virus:
-   - AurieManager may have been tagged as a false-positive by antivirus. Try to turn off it first them run it first. (Don't worry it's 100% safe. I tested it myself)
+   - AurieManager may have been tagged as a false-positive by antivirus/AV. Try to turn off AV first them run AurieManager (Don't worry it's 100% safe. I tested it myself). After that, turn on AV.
 5. Game crashes after entering character selection screen:
    - It could be a config error. Make sure you have properly downloaded the mod. If not, try to delete the old mod folder and re-install it. Also, delete config (check #1) then open AurieManager.
   
