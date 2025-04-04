@@ -74,8 +74,8 @@ If you did the troubleshooting above and still have issues: DM [@tomokinji3](htt
 ---
 
 ## Thanks To  
-- **Kay Yu** – For making HoloCure.  
 - **BurningShAdowXD258** – for initial sprites, animation, character info he made 2 years ago. (Thanks, dude!)  
+- **Kay Yu** – For making HoloCure.  
 - **Fellow fandeads** – For showing support.  
 
 ---
