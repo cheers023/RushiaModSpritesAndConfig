@@ -1,3 +1,9 @@
+Update 1.1.6
+- Skill reworked. Removed extra crits and adjusted buff chance.
+- Added JP patch to Rushia_JP (select 2nd rushia from character selection screen.).
+- Updated skill, attack and special attack descriptions.
+
+
 Update 1.1.55
 - Fixed run animation and some sprites.
 - Fixed some text.

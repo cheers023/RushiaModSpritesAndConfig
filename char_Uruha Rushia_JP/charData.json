@@ -7,7 +7,7 @@
     "attackAnimationFileName": "RushiaWeaponAwakened_strip12.png",
     "attackAwakenedIconFileName": "rushiaWeaponAwakened.png",
     "attackIconFileName": "rushiaWeapon.png",
-    "attackName": "Butterfly Swarm",
+    "attackName": "バタフライ・スウォーム",
     "buffs": [
         {
             "buffIconFileName": "RushiaPerk1Buff.png",
@@ -34,7 +34,7 @@
                 {
                     "DR": null,
                     "attackIncrement": null,
-                    "critIncrement": 10,
+                    "critIncrement": null,
                     "food": null,
                     "hasteIncrement": 10,
                     "healMultiplier": null,
@@ -64,7 +64,7 @@
             ]
         }
     ],
-    "charName": "URUHA RUSHIA",
+    "charName": "潤羽るしあ",
     "idleAnimationFPS": 4,
     "idleAnimationFileName": "idleRushia_strip4.png",
     "largePortraitFileName": "rushiaLargePort.png",
@@ -72,7 +72,7 @@
         {
             "attackCount": 1,
             "attackDelay": 10,
-            "attackDescription": "Sends butterfly swarm forward.",
+            "attackDescription": "バタフライの大群を前進させる。",
             "attackTime": 80,
             "damage": 1.0,
             "duration": 120,
@@ -84,7 +84,7 @@
         {
             "attackCount": 1,
             "attackDelay": 10,
-            "attackDescription": "Increase attack damage by 15%.",
+            "attackDescription": "攻撃ダメージを15%増加させる。",
             "attackTime": 80,
             "damage": 1.15,
             "duration": 120,
@@ -96,7 +96,7 @@
         {
             "attackCount": 2,
             "attackDelay": 10,
-            "attackDescription": "Increase amount of butterfly swarm by 1.",
+            "attackDescription": "蝶の群れの数を1増やす。",
             "attackTime": 80,
             "damage": 1.15,
             "duration": 120,
@@ -108,7 +108,7 @@
         {
             "attackCount": 2,
             "attackDelay": 10,
-            "attackDescription": "Increase attack damage and speed by 20%",
+            "attackDescription": "攻撃ダメージとスピードを20%増加",
             "attackTime": 80,
             "damage": 1.35,
             "duration": 120,
@@ -120,7 +120,7 @@
         {
             "attackCount": 3,
             "attackDelay": 10,
-            "attackDescription": "Increase amount of butterfly by 1 and range by 10%.",
+            "attackDescription": "バタフライの量を1増やし、範囲を10%広げる。",
             "attackTime": 80,
             "damage": 1.35,
             "duration": 120,
@@ -132,7 +132,7 @@
         {
             "attackCount": 3,
             "attackDelay": 9,
-            "attackDescription": "Reduces the time between attacks by 10%.",
+            "attackDescription": "攻撃間隔を10%短縮。",
             "attackTime": 80,
             "damage": 1.35,
             "duration": 120,
@@ -144,7 +144,7 @@
         {
             "attackCount": 4,
             "attackDelay": 9,
-            "attackDescription": "Increase amount of butterfly swarm by 4, increases attack damage by 20% and maxed out range and speed.",
+            "attackDescription": "蝶の群れの数を4増やし、攻撃ダメージを20％増加させ、射程距離とスピードを最大にする。",
             "attackTime": 80,
             "damage": 1.55,
             "duration": 120,
@@ -168,7 +168,7 @@
                     "food": null,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 100% ATK and 100% SPD. Chance to gain ATK for every critical hits.",
+                    "skillDescription": "魔界学園出身のネクロマンサーで、ATKとSPDが100%増加する。クリティカルが出るたびにATKが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
                         "onTriggerType": "onCriticalHit",
@@ -184,7 +184,7 @@
                     "food": null,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 200% ATK and 100% SPD. Chance to gain ATK for every critical hits.",
+                    "skillDescription": "魔界学園出身のネクロマンサーで、ATK200%、SPD100%を得る。クリティカルが出るたびにATKが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
                         "onTriggerType": "onCriticalHit",
@@ -200,7 +200,7 @@
                     "food": null,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 300% ATK and 200% SPD. Chance to gain ATK for every critical hits.",
+                    "skillDescription": "魔界学園出身のネクロマンサーで、ATK300%、SPD200%を得る。クリティカルが出るたびにATKが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "necromancy1",
                         "onTriggerType": "onCriticalHit",
@@ -211,7 +211,7 @@
                 }
             ],
             "skillIconFileName": "RushiaPerk1.png",
-            "skillName": "Necromancy"
+            "skillName": "ネクロマンシー"
         },
         {
             "levels": [
@@ -222,7 +222,7 @@
                     "food": null,
                     "hasteIncrement": 15,
                     "healMultiplier": 0.5,
-                    "skillDescription": "Applies \"Unstable\" debuff and gains 15% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillDescription": "Unstableデバフをかけ、15%のHasteと10%のCRITを得るが、回復量は50%減少する。ダメージを受けると確率でHasteを得る。",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
                         "onTriggerType": "onTakeDamage",
@@ -238,7 +238,7 @@
                     "food": null,
                     "hasteIncrement": 20,
                     "healMultiplier": 0.5,
-                    "skillDescription": "Applies \"Unstable\" debuff and gains 20% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillDescription": "Unstableデバフをかけ、20%のHasteと10%のCRITを得るが、回復量は50%減少する。ダメージを受けると確率でHasteを得る。",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
                         "onTriggerType": "onTakeDamage",
@@ -254,7 +254,7 @@
                     "food": null,
                     "hasteIncrement": 30,
                     "healMultiplier": 0.5,
-                    "skillDescription": "Applies \"Unstable\" debuff and gains 30% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillDescription": "Unstableデバフをかけ、30%のHasteと10%のCRITを得るが、回復量は50%減少する。ダメージを受けると確率でHasteを得る。",
                     "skillOnTriggerData": {
                         "buffName": "menhera1",
                         "onTriggerType": "onTakeDamage",
@@ -265,7 +265,7 @@
                 }
             ],
             "skillIconFileName": "RushiaPerk2.png",
-            "skillName": "Menhera"
+            "skillName": "メンヘラ"
         },
         {
             "levels": [
@@ -276,7 +276,7 @@
                     "food": 0.2,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Gains food drop by 20%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillDescription": "食料ドロップが20%増加する。かわすごとに食料獲得量と武器サイズが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onDodge",
@@ -292,7 +292,7 @@
                     "food": 0.35,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Gains food drop by 35%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillDescription": "食料ドロップが35%増加する。かわすごとに食料獲得量と武器サイズが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onDodge",
@@ -308,7 +308,7 @@
                     "food": 0.5,
                     "hasteIncrement": null,
                     "healMultiplier": null,
-                    "skillDescription": "Gains food drop by 50%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillDescription": "食料ドロップが50%増加する。かわすごとに食料獲得量と武器サイズが増加する。",
                     "skillOnTriggerData": {
                         "buffName": "notPettan1",
                         "onTriggerType": "onDodge",
@@ -319,16 +319,16 @@
                 }
             ],
             "skillIconFileName": "RushiaPerk3.png",
-            "skillName": "Not Pettan!"
+            "skillName": "ぺたんこじゃない!"
         }
     ],
     "specialAnimationFPS": 15,
     "specialAnimationFileName": "RushiaSpecial_strip9.png",
     "specialCooldown": 50,
     "specialDamage": 6.0,
-    "specialDescription": "Blesses targets ears with waves of bloodcurdling screams for 5.5 seconds.",
+    "specialDescription": "5.5秒間、対象の耳に血を吐くような叫び声を浴びせる。",
     "specialDuration": 55,
     "specialIconFileName": "rushiaSpecial.png",
-    "specialName": "Death Metal Scream",
+    "specialName": "デス・メタル・スクリーム",
     "weaponType": "Multishot"
 }
