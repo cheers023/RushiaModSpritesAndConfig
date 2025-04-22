@@ -5,7 +5,7 @@ This mod adds Uruha Rushia to HoloCure as a new playable character.
 **Making a save file backup before running the mod is recommended.**
 
 ## Download link: 
-Rushia Mod v1.1.6 - (See **Release** on the left for updated version.)
+Rushia Mod v1.1.6 - (See **Release** on the right side for updated version.)
 Note: There will be no game bundled for this update. Kindly download any previous version first before downloading the latest release version.
 
 ## Previous Version:
