@@ -1,6 +1,7 @@
 # Rushia Mod v2.0
 
 ![Rushia Mod v2.0 Preview 1](https://github.com/cheers023/RushiaModSpritesAndConfig/blob/main/rushia_v2_pic1.png?raw=true)
+
 ![Rushia Mod v2.0 Preview 2](https://github.com/cheers023/RushiaModSpritesAndConfig/blob/main/rushia_v2_pic2.png?raw=true)
 
 ## Updated: 6/24/2025
