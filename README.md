@@ -1,4 +1,4 @@
-# Rushia Mod (Holocure Character Mod)
+# Rushia Mod (Holocure)
 
 ![Rushia Mod v2.0 Preview 1](https://github.com/cheers023/RushiaModSpritesAndConfig/blob/main/rushia_v2_pic1.png?raw=true)
 
