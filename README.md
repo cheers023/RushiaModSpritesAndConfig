@@ -1,7 +1,8 @@
 # Rushia Mod v2.0
+![Preview 1](https://github.com/cheers023/RushiaModSpritesAndConfig/edit/main/rushia%20v2_pic1.png)
+![Preview 2](https://github.com/cheers023/RushiaModSpritesAndConfig/edit/main/rushia%20v2_pic2.png)
 ## Updated: 6/24/2025
 This mod adds Uruha Rushia to HoloCure as a new playable character.
-
 **Making a save file backup before running the mod is recommended.**
 
 ## Download link: 
