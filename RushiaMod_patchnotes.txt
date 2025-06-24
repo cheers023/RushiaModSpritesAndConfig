@@ -1,10 +1,18 @@
-Update 1.1.6
+Rushia v2 Update (6-24-25):
+- Updated character stats, skills and buffs
+- Added "Dispersion Shot" at the end of normal attack.
+- Revamped animations for running, idle, special attack, etc.
+- Fixed some assets to match skill and buff icon.
+- Balanced stats so she won't have too much stats and damage when she gets the "Necromancy" skill.
+
+Old Updates (v1):
+Update 1.1.6:
 - Skill reworked. Removed extra crits and adjusted buff chance.
 - Added JP patch to Rushia_JP (select 2nd rushia from character selection screen.).
 - Updated skill, attack and special attack descriptions.
 
 
-Update 1.1.55
+Update 1.1.55:
 - Fixed run animation and some sprites.
 - Fixed some text.
 - Fixed skill effects, buffs and description.

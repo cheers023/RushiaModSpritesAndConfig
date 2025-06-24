@@ -1,0 +1,487 @@
+{
+    "ATK": 1.5,
+    "CRIT": 10.0,
+    "HP": 122.0,
+    "SPD": 1.6,
+	    "actionDataList": [
+        {
+            "actionName": "onCreateSpawn",
+            "actionProjectileData": {
+                "isAbsoluteSpawnDir": false,
+                "projectileDataName": "proj1",
+                "relativeSpawnPosX": null,
+                "relativeSpawnPosY": null,
+                "spawnDir": 0.0
+            },
+            "actionType": "SpawnProjectile"
+        },
+        {
+            "actionName": "spawnProj0",
+            "actionProjectileData": {
+                "isAbsoluteSpawnDir": false,
+                "projectileDataName": "proj2",
+                "relativeSpawnPosX": null,
+                "relativeSpawnPosY": null,
+                "spawnDir": null
+            },
+            "actionType": "SpawnProjectile"
+        },
+        {
+            "actionName": "spawnProj1",
+            "actionProjectileData": {
+                "isAbsoluteSpawnDir": false,
+                "projectileDataName": "proj2",
+                "relativeSpawnPosX": null,
+                "relativeSpawnPosY": null,
+                "spawnDir": 90.0
+            },
+            "actionType": "SpawnProjectile"
+        },
+        {
+            "actionName": "spawnProj2",
+            "actionProjectileData": {
+                "isAbsoluteSpawnDir": false,
+                "projectileDataName": "proj2",
+                "relativeSpawnPosX": null,
+                "relativeSpawnPosY": null,
+                "spawnDir": 180.0
+            },
+            "actionType": "SpawnProjectile"
+        },
+        {
+            "actionName": "spawnProj3",
+            "actionProjectileData": {
+                "isAbsoluteSpawnDir": false,
+                "projectileDataName": "proj2",
+                "relativeSpawnPosX": null,
+                "relativeSpawnPosY": null,
+                "spawnDir": 270.0
+            },
+            "actionType": "SpawnProjectile"
+        }
+    ],
+    "attackAnimationFPS": 25,
+    "attackAnimationFileName": "RushiaWeaponAwakened_strip8.png",
+    "attackAwakenedIconFileName": "rushiaWeaponAwakened.png",
+    "attackIconFileName": "rushiaWeapon.png",
+    "attackName": "Butterfly Swarm",
+    "buffs": [
+        {
+            "buffIconFileName": "RushiaPerk1Buff.png",
+            "buffName": "necromancy1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": 1,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "maxStacks": 1,
+                    "speedIncrement": null,
+                    "timer": 600,
+                    "weaponSize": null
+                }
+            ]
+        },
+		{
+            "buffIconFileName": "RushiaPerk2Buff.png",
+            "buffName": "menhera1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": null,
+                    "critIncrement": 10,
+                    "food": null,
+                    "hasteIncrement": 10,
+                    "healMultiplier": null,
+                    "maxStacks": 3,
+                    "speedIncrement": null,
+                    "timer": 600,
+                    "weaponSize": null
+                }
+            ]
+        },
+		{
+            "buffIconFileName": "RushiaPerk3Buff.png",
+            "buffName": "notPettan1",
+            "levels": [
+                {
+                    "DR": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.1,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "maxStacks": 10,
+                    "speedIncrement": null,
+                    "timer": 600,
+                    "weaponSize": 2
+                }
+            ]
+        }
+    ],
+    "charName": "URUHA RUSHIA (v2)",
+    "idleAnimationFPS": 4,
+    "idleAnimationFileName": "idleRushia_strip4.png",
+    "largePortraitFileName": "rushiaLargePort.png",
+    "levels": [
+        {
+            "attackCount": 3,
+            "attackDelay": 10,
+            "attackDescription": "Sends butterfly swarm forward and shoots disperse shot at the end.",
+            "attackTime": 80,
+            "damage": 1.0,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "spawnProj",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 3,
+            "attackDelay": 10,
+            "attackDescription": "Increase attack damage by 15%.",
+            "attackTime": 80,
+            "damage": 1.15,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 4,
+            "attackDelay": 10,
+            "attackDescription": "Increase amount of butterfly swarm by 1.",
+            "attackTime": 80,
+            "damage": 1.15,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 4,
+            "attackDelay": 10,
+            "attackDescription": "Increase attack damage by 20%",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 5,
+            "attackDelay": 10,
+            "attackDescription": "Increase amount of butterfly by 1.",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 5,
+            "attackDelay": 9,
+            "attackDescription": "Reduces the time between attacks by 10%.",
+            "attackTime": 80,
+            "damage": 1.35,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        },
+        {
+            "attackCount": 5,
+            "attackDelay": 9,
+            "attackDescription": "Increases attack damage by 20%.",
+            "attackTime": 80,
+            "damage": 1.55,
+            "duration": 120,
+            "hitCD": 10,
+            "hitLimit": 10,
+			"projectileActionList": [
+                {
+                    "projectileActionName": "newOnTrigger",
+                    "projectileActionTriggerType": "OnCreate",
+                    "triggeredActionName": "onCreateSpawn"
+                }
+            ],
+            "range": 60,
+            "speed": 4.0
+        }
+    ],
+    "portraitFileName": "rushiaPort.png",
+	"projectileDataList": [
+        {
+            "projectileActionList": [
+                {
+                    "projectileActionName": "onDestroyTrigger0",
+                    "projectileActionTriggerType": "OnDestroy",
+                    "triggeredActionName": "spawnProj0"
+                },
+                {
+                    "projectileActionName": "onDestroyTrigger1",
+                    "projectileActionTriggerType": "OnDestroy",
+                    "triggeredActionName": "spawnProj1"
+                },
+                {
+                    "projectileActionName": "onDestroyTrigger2",
+                    "projectileActionTriggerType": "OnDestroy",
+                    "triggeredActionName": "spawnProj2"
+                },
+                {
+                    "projectileActionName": "onDestroyTrigger3",
+                    "projectileActionTriggerType": "OnDestroy",
+                    "triggeredActionName": "spawnProj3"
+                }
+            ],
+            "projectileAnimationFPS": 25,
+            "projectileAnimationFileName": "BlankSprite.png",
+            "projectileDamage": 1.0,
+            "projectileDuration": 60,
+            "projectileHitCD": 20,
+            "projectileHitLimit": 10,
+            "projectileHitRange": 200,
+            "projectileName": "proj1",
+            "projectileSpeed": 4.0
+        },
+        {
+            "projectileActionList": [],
+            "projectileAnimationFPS": 25,
+            "projectileAnimationFileName": "RushiaDisperseShot_strip2.png",
+            "projectileDamage": 1.0,
+            "projectileDuration": 60,
+            "projectileHitCD": 20,
+            "projectileHitLimit": 10,
+            "projectileHitRange": 200,
+            "projectileName": "proj2",
+            "projectileSpeed": 4.0
+        }
+    ],
+    "runAnimationFPS": 12,
+    "runAnimationFileName": "runRushia_strip4.png",
+    "sizeGrade": 0,
+    "skills": [
+        {
+            "levels": [
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": 0.5,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 50% ATK and 100% SPD. 50% chance to gain ATK for every critical hits.",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "onCriticalHit",
+                        "probability": 50
+					},
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": 1,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 100% ATK and 100% SPD. 50% chance to gain ATK for every critical hits.",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "onCriticalHit",
+                        "probability": 50
+                    },
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": 2,
+                    "critIncrement": null,
+                    "food": null,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "As a Necromancer from Demon Realm Academy, she gains 200% ATK and 100% SPD. 50% chance to gain ATK for every critical hits.",
+                    "skillOnTriggerData": {
+                        "buffName": "necromancy1",
+                        "onTriggerType": "onCriticalHit",
+                        "probability": 50
+                    },
+                    "speedIncrement": 1,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk1.png",
+            "skillName": "Necromancy"
+        },
+        {
+            "levels": [
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": 10,
+                    "food": null,
+                    "hasteIncrement": 15,
+                    "healMultiplier": 0.5,
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 15% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onTakeDamage",
+                        "probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": 10,
+                    "food": null,
+                    "hasteIncrement": 20,
+                    "healMultiplier": 0.5,
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 20% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onTakeDamage",
+                        "probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": 10,
+                    "food": null,
+                    "hasteIncrement": 30,
+                    "healMultiplier": 0.5,
+                    "skillDescription": "Applies \"Unstable\" debuff and gains 30% Haste and 10% CRIT but decreases heal by 50%. Chance to gain Haste after taking damage.",
+                    "skillOnTriggerData": {
+                        "buffName": "menhera1",
+                        "onTriggerType": "onTakeDamage",
+						"probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk2.png",
+            "skillName": "Menhera"
+        },
+        {
+            "levels": [
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.2,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Gains food drop by 20%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onDodge",
+                        "probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.35,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Gains food drop by 35%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onDodge",
+                        "probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                },
+                {
+                    "DRMultiplier": null,
+                    "attackIncrement": null,
+                    "critIncrement": null,
+                    "food": 0.5,
+                    "hasteIncrement": null,
+                    "healMultiplier": null,
+                    "skillDescription": "Gains food drop by 50%. Chance to increase food gain and weapon size for every dodge.",
+                    "skillOnTriggerData": {
+                        "buffName": "notPettan1",
+                        "onTriggerType": "onDodge",
+                        "probability": 80
+                    },
+                    "speedIncrement": null,
+                    "weaponSize": null
+                }
+            ],
+            "skillIconFileName": "RushiaPerk3.png",
+            "skillName": "Not Pettan!"
+        }
+    ],
+    "specialAnimationFPS": 10,
+    "specialAnimationFileName": "RushiaSpecial_strip4.png",
+    "specialCooldown": 40,
+    "specialDamage": 5.0,
+    "specialDescription": "Blesses targets ears with waves of bloodcurdling screams for 2 seconds.",
+    "specialDuration": 40,
+    "specialIconFileName": "rushiaSpecial.png",
+    "specialName": "Death Metal Scream",
+    "weaponType": "Multishot"
+}
