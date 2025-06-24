@@ -3,7 +3,7 @@ Rushia v2 Update (6-24-25):
 - Added "Dispersion Shot" at the end of normal attack.
 - Revamped animations for running, idle, special attack, etc.
 - Fixed some assets to match skill and buff icon.
-- Balanced stats so she won't have too much stats and damage when she gets the "Necromancy" skill.
+- Balanced stats so she won't have too much stats and damage when getting "Necromancy" skill.
 
 Old Updates (v1):
 Update 1.1.6:
