@@ -73,16 +73,16 @@ If you did the troubleshooting above and still have issues: DM [@tomokinji3](htt
 ---
 
 ## Authors  
-- **tomokinji** – Sprites I made, some edited sprites, and configs, etc. (Twitter: [@tomokinji3](https://twitter.com/tomokinji3))  
-- **Ghast** – Large portrait of Rushia (a cute portrait when selecting the character). (Twitter: [@GhastXO](https://twitter.com/GhastXO))  
+- **tomokinji** – Sprites I made, some edited sprites, and configs, etc. (Twitter: [@tomokinji3](https://x.com/tomokinji3))  
+- **Ghast** – Large portrait of Rushia (a cute portrait when selecting the character). (Twitter: [@GhastXO](https://x.com/GhastXO))
+- **BurningShAdowXD - Rushia v2 art assets (Also initial art for v1). (Twitter: [@BurningShAdowXD](https://x.com/BurningShAdowXD)
 
 ---
 
 ## Thanks To  
-- **BurningShAdowXD258** – for initial sprites, animation, character info he made 2 years ago. (Thanks, dude!)  
 - **Kay Yu** – For making HoloCure.  
 - **Fellow fandeads** – For showing support.  
 
 ---
 
-Welp, Happy April Fools' Day! Hope you enjoy the mod. – **tomokinji**
+"This is supposed to be April Fool's joke. Now I made a v2 version coz why not?" – **tomokinji**
